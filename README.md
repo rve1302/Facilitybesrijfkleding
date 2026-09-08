@@ -1,39 +1,16 @@
-# Facility × RVE Bedrijfskleding — complete website demo
+# Facility × RVE Bedrijfskleding — GitHub Pages demo
 
-Dit is een klikbare front-end demo van een white-label Facility omgeving die door RVE Bedrijfskleding wordt geleverd en beheerd.
+Complete front-end demo met drie rollen:
 
-## Inhoud
-- Publieke Facility landingspagina
-- Login / demo-toegang
-- Medewerker dashboard
-- Persoonlijk puntenbudget
-- Assortiment werkkleding en PBM's
-- Winkelwagen en puntenberekening
-- Bestelproces naar RVE
-- Orderhistorie
-- Profiel en maten
-- Gereedschap + assetregistratie
-- Facility beheer-dashboard
-- Medewerkersbeheer
-- Rapportage-overzicht
-- Responsive ontwerp voor mobiel en desktop
+- **Facility medewerker** — `medewerker@facility.nl` / `demo1234`
+- **Facility HR / beheer** — `hr@facility.nl` / `demo1234`
+- **RVE Bedrijfskleding beheer** — `beheer@rve.nl` / `demo1234`
 
-## Demo starten
-Open `index.html` in een moderne browser.
+## Publiceren via GitHub Pages
+1. Maak een nieuwe repository.
+2. Upload `index.html`, `.nojekyll` en dit README-bestand naar de root.
+3. Open **Settings → Pages**.
+4. Kies **Deploy from a branch** en daarna **main / (root)**.
+5. Sla op en open de GitHub Pages-link.
 
-## Voor productie verder uitbouwen
-Aanbevolen technische architectuur:
-- Front-end: React / Next.js of vergelijkbaar
-- Backend/API: Node.js/NestJS, Laravel of .NET
-- Database: PostgreSQL
-- Authenticatie: Microsoft Entra ID / SSO + rollen
-- Multi-tenant structuur per klant
-- Opslag van logo, kleuren en klant-specifieke domeinen
-- RVE super-admin portal
-- Order-, voorraad- en facturatiekoppelingen
-- Audit logging en AVG/GDPR
-- QR-code assetbeheer voor gereedschap
-- HR/ERP-import van medewerkers
-
-## Belangrijk
-Dit is een demonstratie/prototype. Bedragen, namen en aantallen zijn voorbeelddata.
+> Let op: dit is een klikbare **front-end demo**. De demo-inlog staat bewust in de browsercode en is dus **geen echte beveiligde authenticatie**. Voor productie zijn een backend, database, veilige sessies, wachtwoordbeheer, rollen/rechten, AVG-maatregelen en audit logging nodig.
